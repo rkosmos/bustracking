@@ -1,0 +1,49 @@
+{
+  "expo": {
+    "name": "bus_tracking",
+    "slug": "bus_tracking",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.xkimyuan.bus_tracking"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-font",
+        {
+          "fonts": [
+            "./assets/fonts/Alatsi-Regular.ttf",
+            "./assets/fonts/Koulen-Regular.ttf",
+            "./assets/fonts/Montserrat-Regular.ttf",
+            "./assets/fonts/Montserrat-Bold.ttf",
+            "./assets/fonts/Montserrat-ExtraBold.ttf",
+            "./assets/fonts/Montserrat-Medium.ttf",
+            "./assets/fonts/Raleway-Regular.ttf"
+          ]
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "d979d4fe-c745-4da8-a8de-cc1fc83dc1f8"
+      }
+    }
+  }
+}
