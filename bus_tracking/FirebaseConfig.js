@@ -7,15 +7,15 @@ import AsyncStorage from "@react-native-async-storage/async-storage";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyAobSDuk2PYs3pXRqoxanp2bI3XlLmxJVk",
-  authDomain: "bus-tracking-f3e32.firebaseapp.com",
-  projectId: "bus-tracking-f3e32",
-  storageBucket: "bus-tracking-f3e32.appspot.com",
-  messagingSenderId: "315540107658",
-  appId: "1:315540107658:web:17f698340e61864002d873",
-  measurementId: "G-S3E1Z81B20",
+  apiKey: "",
+  authDomain: "",
+  projectId: "",
+  storageBucket: "",
+  messagingSenderId: "",
+  appId: "",
+  measurementId: "",
   databaseURL:
-    "https://bus-tracking-f3e32-default-rtdb.asia-southeast1.firebasedatabase.app/",
+    "",
 };
 
 // Initialize Firebase
